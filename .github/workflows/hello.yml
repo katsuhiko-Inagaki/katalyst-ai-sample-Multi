@@ -1,0 +1,13 @@
+# Buildkite の検査用に使う、最小のワークフロー
+name: Hello
+
+on:
+  push:
+  workflow_dispatch:
+
+jobs:
+  hello:
+    runs-on: ubuntu-latest
+    steps:
+      - name: あいさつを表示する
+        run: echo "Hello from GitHub Actions"

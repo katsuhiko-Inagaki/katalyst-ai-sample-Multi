@@ -1,0 +1,3 @@
+steps:
+  - label: "Hello"
+    command: "echo 'Hello from Pipeline'"
